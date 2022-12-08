@@ -1,0 +1,61 @@
+@import "./global/header.css";
+@import "./global/biografia.css";
+@import "./global/discografia.css";
+@import "./global/premios.css";
+@import "./global/footer.css";
+@import "./albuns/albuns.css";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Elektrix' sans-serif;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  margin: 0px;
+}
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
+h2{
+  display: block;
+  text-align: center;
+  margin-bottom: 0px;
+}
+p{
+  font-family: "Exo", sans-serif;
+}
+table {
+  padding:5px;
+}
+table th {
+  padding:2px;
+  background: #f0f0f0;
+  color: #313030;
+}
+table td {
+  text-align: left;
+  padding:2px;
+  background: #ffffff;
+  color: #313030;
+} 

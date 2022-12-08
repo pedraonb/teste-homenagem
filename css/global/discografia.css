@@ -1,0 +1,60 @@
+
+#discografia{
+    background-color: #94b8b8;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.discos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 90px 40px 90px;
+}
+#discografia img{
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+.poster{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 10px;
+    width: 360px;
+    border-radius: 12px;
+    border: 4px dotted grey;
+    box-shadow: 5px 10px 14px rgb(81 82 82 / 40%);
+}
+
+
+.poster ul{
+    padding-left: 30px;
+}
+.poster li:first-child {
+    font-weight: bolder;
+}
+.poster li{
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+}
+.poster li::before{
+    content: '•';
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}
+@media (max-width: 800px){
+
+}
+@media (max-width: 600px){
+    .discos{
+        padding: 0px 10px 0px 10px;
+    }
+}

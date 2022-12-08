@@ -1,0 +1,21 @@
+/* footer */
+footer{
+    background: #94b8b8;
+}
+footer h2{
+    font-family: "Exo", sans-serif;
+    padding: 40px 0;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 20px;
+}

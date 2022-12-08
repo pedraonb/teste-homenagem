@@ -1,0 +1,19 @@
+.albuns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.albuns-imagem{
+    display: grid;
+}
+.albuns-conteudo{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-content: start;
+}
+.albuns-conteudo td:first-child{
+    text-align: center;
+}

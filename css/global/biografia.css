@@ -1,0 +1,44 @@
+/* biografia */
+#bio{
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+    background-color: #ffffff;
+    width: 100%;
+    
+}
+#bio-info img{
+    border-radius: 100%;
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+}
+#bio-info{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ padding: 0 90px 40px 90px;
+}
+#bio-info p{
+    width: 800px;
+    line-height: 1.8;
+    padding: 20px;
+    font-size: 18px;
+}
+#bio-info  a{
+    color: rgb(40, 67, 218);
+    text-decoration: underline;
+}
+
+@media (max-width: 600px){
+    #bio{
+        max-width: 100%;
+    }
+    #bio-info{
+        padding: 0 35px;
+    }
+    #bio img{
+        display: none;
+    }
+
+}
